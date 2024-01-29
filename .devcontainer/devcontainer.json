@@ -2,5 +2,17 @@
 	"name": "fpp",
 	"dockerComposeFile": "../docker-compose.yml",
 	"service": "fpp",
-	"workspaceFolder": "/workspace"
+	"workspaceFolder": "/workspace",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				// run and debug
+				"vscjava.vscode-java-pack",
+				// intellsence
+				"redhat.java",
+				// scala syntax
+				"scala-lang.scala"
+			]
+		}
+	}
 }
