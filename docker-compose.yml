@@ -1,0 +1,7 @@
+version: '3'
+services:
+  fpp:
+    build: .
+    volumes:
+      - .:/workspace
+    tty: true
