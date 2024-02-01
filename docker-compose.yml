@@ -2,6 +2,8 @@ version: '3'
 services:
   fpp:
     build: .
+    # TODO コンテナ内外のパーミッションがあってないので、統一する
+    # TODO そもそもrootユーザはやめたほうがいい
     volumes:
       - .:/workspace
     tty: true

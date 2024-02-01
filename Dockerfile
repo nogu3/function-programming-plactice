@@ -13,4 +13,6 @@ RUN curl -fL https://github.com/coursier/coursier/releases/latest/download/cs-x8
     && ./cs setup --yes
 
 ENV PATH="${PATH}:~/.local/share/coursier/bin"
-RUN alias vi=neovim
+# TODO 効いてないので、なおす
+RUN alias vi=neovim \
+    && alias s=scala
