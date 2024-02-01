@@ -10,8 +10,8 @@
 				"vscjava.vscode-java-pack",
 				// intellsence
 				"redhat.java",
-				// scala syntax
-				"scala-lang.scala"
+				// scala syntax and format
+				"scalameta.metals"
 			]
 		}
 	}
