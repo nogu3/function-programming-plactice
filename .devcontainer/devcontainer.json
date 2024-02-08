@@ -12,7 +12,12 @@
 				"redhat.java",
 				// scala syntax and format
 				"scalameta.metals"
-			]
+			],
+			"settings": {
+				"[scala]": {
+					"editor.tabSize": 2
+				}
+			}
 		}
 	}
 }
